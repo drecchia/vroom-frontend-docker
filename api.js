@@ -2,7 +2,7 @@
 
 module.exports = {
   tileLayer: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-  host: process.env.HOST || 'http://localhost',
-  port: process.env.PORT || '3000',
+  host: 'http://172.90.99.1',
+  port: '3003',
   maxJobNumber: 1000
 };
